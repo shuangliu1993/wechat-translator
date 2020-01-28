@@ -12,10 +12,9 @@ from wx_core import msg_handler
 
 
 # set token or get from environments
-TOKEN = os.getenv('WECHAT_TOKEN', 'wevm')
-# APPID = os.getenv('WECHAT_APP_ID', 'wxacdfb6f7d744b830')
-APPID = os.getenv('WECHAT_APP_ID', 'wx422378d1a5230e05')
-AES_KEY = os.getenv('WECHAT_AES_KEY', 'eFLE0HVJhWbUaja01Bag3IDenVLWQx67XqaKKX8uZVY')
+TOKEN = os.getenv('WECHAT_TOKEN')
+APPID = os.getenv('WECHAT_APP_ID')
+AES_KEY = os.getenv('WECHAT_AES_KEY')
 
 app = Flask(__name__)
 
